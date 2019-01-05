@@ -1,0 +1,184 @@
+body.body{
+  font-family: roboto;
+}
+
+.popups{
+  display: none;
+  position: fixed;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  top: 0px;
+  bottom: 0px;
+  z-index: 100;
+}
+
+.popups .container{
+/*   margin: 0px auto; */
+/*   width: 100%; */
+  position: relative;
+  padding-top: 10%;
+}
+.pops{
+  position: relative;
+  top: 15%;
+  margin: 0px auto;
+  /*color: green;*/
+}
+@font-face{
+  font-family: 'pac';
+  src:url(https://fonts.gstatic.com/s/pacifico/v9/Q_Z9mv4hySLTMoMjnk_rCfesZW2xOQ-xsNqO47m55DA.woff2);
+  font-weight: 400;
+}
+.main_wrapper{
+  background-image: url(../img/bg.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+  min-height: 600px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.main_wrapper h1{
+  margin-top: 10%;
+  font-size: 5em;
+  font-family: pac;
+}
+
+.main_wrapper .btn{
+  padding: 20px;
+  /*border-bottom: 3px solid #eee ;*/
+  min-width: 200px;
+}
+
+.main_wrapper h3{
+  font-size: 3em;
+  font-weight: 100;
+}
+
+.wrapper_1{
+
+}
+
+.wrapper_1 .card{
+  padding: 20px;
+}
+
+.card h3{
+  font-weight: bold;
+  color: #666;
+}
+
+.card p{
+  font-size: .9em;
+  color: #888;
+}
+.wrapper_1 .fa{
+  background: #f9f9f9;
+  width: 100px;
+  height: 100px;
+  font-size: 3em;
+  color: #555;
+  border-radius: 100%;
+  padding: 30px;
+  border: 1px solid #eee;
+}
+
+.wrapper a.btn{
+  padding: 20px;
+  min-width: 170px;
+
+}
+
+.body .green{
+  background: #2ecc71;
+}
+.wrapper{
+  background-size: 100%;
+}
+.wrapper_2{
+  background-image: linear-gradient(rgba(19, 68, 99, 0.8),rgba(19, 68, 99, 0.8)), url(http://mikeleonardagency.com/wp-content/uploads/bfi_thumb/Desk-30v0nn8mw19po833nyvpc0.jpg);
+  background-attachment: fixed;
+  background-color:#ccc;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+form{
+  padding: 0px;
+}
+
+.main_wrapper form input.submit{
+  padding: 10px;
+  font-weight: bolder;
+  color: #888;
+  min-width: unset;
+
+}
+
+.main_wrapper .form{
+  padding: 10px;
+}
+
+.form .col-xs-12{
+  padding: 6px;
+}
+
+.main_wrapper form input{
+  width: 100%;
+  padding: 8px;
+  border: none;
+
+  color: black;
+}
+@media only screen and (max-width: 900px) {
+  body.body .main_wrapper{
+    height: unset !important;
+  }
+  .images{
+    overflow: unset;
+  }
+ .images img{
+  height: 100px;
+  display: inline-block;
+}
+}
+
+@media only screen and (max-width: 400px) {
+
+  .main_wrapper{
+    padding: 20px;
+    background-size: 300%;
+    background-position: center 0px;
+    height: unset !important;
+
+  }
+
+  .main_wrapper h1{
+    font-size: 3em;
+    margin-top:20%;
+  }
+  .wrapper_2{
+    padding: 10px;
+  }
+  .wrapper_2 h1{
+    font-size: 1.5em;
+  }
+  .main_wrapper h3{
+    font-size: 1.9em;
+  }
+  ul{
+    padding-left: 10px;
+  }
+
+  .images{
+    overflow: unset;
+    display: table;
+  }
+
+  .images img{
+    height: 70px;
+/*     width: 150px; */
+    margin-bottom: 2px;
+/*     float: left; */
+  }
+}
